@@ -12,23 +12,20 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
- 
 }
 
 .top-side button {
-background-color: #039b08;
- height: 25px; 
- border-radius: 5px; 
- border: none;
+  background-color: #039b08;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
 
-margin-left: 20px;
-
-
+  margin-left: 20px;
 }
 .top-side p {
-color: white;
-font-weight: bold;
-margin-bottom: 23px ;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 23px;
 }
 /* navbar */
 .nav-bar {
@@ -136,7 +133,6 @@ img {
 .icon-section p {
   padding-right: 50px;
   display: inline-block;
-  
 }
 
 .icon-section {
@@ -149,7 +145,7 @@ img {
   margin-bottom: 40px;
 }
 
-/* About page */
+/* About page page*/
 .about-page {
   height: 400px;
   width: 1350px;
@@ -177,7 +173,7 @@ img {
   padding: 0px 80px 70px 20px;
 }
 
-/* our service */
+/* our service page */
 
 .our-service h2 {
   font-size: 30px;
@@ -186,8 +182,8 @@ img {
 }
 
 .our-service p {
-  padding: 10px 400px 10px 400px;
-  font-size: 14px;
+  text-align: center;
+  font-size: 15px;
 }
 .box1 {
   height: 180px;
@@ -226,20 +222,19 @@ img {
   padding: 3px 15px 15px 20px;
 }
 
- /* our portfolio */
- .our-portfolio {
-     height: 650px;
-     width: 1350px;
-     background-color: black;
-     margin-top: 50px;
-} 
+/* our portfolio page */
+.our-portfolio {
+  height: 650px;
+  width: 1350px;
+  background-color: black;
+  margin-top: 50px;
+}
 .portfolio-text h2 {
   color: white;
   text-align: center;
   margin-bottom: 15px;
   padding-top: 50px;
   font-size: 30px;
-  
 }
 .our-portfolio img {
   margin-left: 60px;
@@ -249,37 +244,132 @@ img {
   text-align: center;
   font-size: 15px;
   padding-bottom: 18px;
-  
 }
 
 .middle-nav a {
- color: white;
-font-weight: bold;
-margin-left: 90px;
+  color: white;
+  font-weight: bold;
+  margin-left: 90px;
 }
 
+/* our process page */
 .our-process h2 {
   text-align: center;
   margin-bottom: 15px;
   padding-top: 50px;
   font-size: 30px;
-  
 }
 
 .our-process p {
-  padding: 10px 400px 10px 400px;
   font-size: 14px;
+  text-align: center;
 }
 
 .circle-shape {
   height: 120px;
   width: 120px;
- border: 2px solid black;
+  border: 2px solid rgb(124, 108, 108);
   border-radius: 50%;
- }
+  margin-left: 10px;
+  position: relative;
+  display: inline-block;
+}
 
- .outer-shape {
+.outer-shape {
   height: 300px;
   width: 200px;
-  border: 2px solid black;
- }
+  /* border: 2px solid rgb(54, 51, 51); */
+  text-align: center;
+}
+
+.inner-circle {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #ffd92d;
+  margin-left: 12px;
+  position: absolute;
+  top: -18px;
+  left: 29px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 4px 0px 0px 0px;
+}
+
+.circle-shape img {
+  padding-right: 21px;
+}
+.outer-shape h4 {
+  padding: 12px 0px 5px 0px;
+  font-weight: bold;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+/* people about us page */
+.people-about {
+  height: 600px;
+  width: 1345px;
+  background-color: #ebedeb;
+}
+
+.target-text h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.target-text p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.square-text {
+  height: 130px;
+  width: 130px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.content {
+  height: 80px;
+  width: 300px;
+  font-size: 15px;
+  padding: 5px 5px 0px 20px;
+}
+
+.main-div {
+  height: 200px;
+  width: 480px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+.row {
+  display: flex;
+}
+
+/* loading */
+.load {
+  text-align: center;
+}
+
+/* our skills page */
+#ourskills {
+  margin-top: 50px;
+}
+
+.thick-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+ 
+  border: 2px solid  #ffd92d;
+ 
+
+  border-left: 20px solid  #ffd92d;;
+}
