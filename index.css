@@ -15,12 +15,15 @@
 }
 
 .top-side button {
-  background-color: #039b08;
+  background-color: hsl(79, 85%, 42%);
   height: 25px;
   border-radius: 5px;
   border: none;
+  margin-right: 40px;
 
   margin-left: 20px;
+  font-weight: bold;
+  padding: 0px 13px 0px 13px;
 }
 .top-side p {
   color: white;
@@ -363,13 +366,148 @@ img {
   margin-top: 50px;
 }
 
-.thick-circle {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
+.our-skills {
+  height: 200px;
+  width: 250px;
  
-  border: 2px solid  #ffd92d;
- 
+  text-align: center;
+  display: inline-block;
+  margin: 40px 0px 0px 60px;
+}
 
-  border-left: 20px solid  #ffd92d;;
+.circle-skill {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 12px solid #ffd92d;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.percentage {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffd92d;
+  margin: 40px 0px 0px 30px;
+}
+
+/* start new project */
+
+.project {
+  height: 300px;
+  background-color: hsl(79, 85%, 42%);
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+.project input {
+  height: 35px;
+  background-color: white;
+  border: none;
+  margin: 10px 20px 30px 0px;
+  border-radius: 7px;
+}
+.project h2 {
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+/* our contact page */
+.contact-page {
+  text-align: center;
+
+  padding-top: 50px;
+}
+
+.contact-page h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.contact-page h3 {
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+/* footer */
+.footer {
+  height: 400px;
+  width: 1350px;
+  background-color: hsl(79, 85%, 42%);
+  color: white;
+  display: flex;
+  
+}
+
+.side-1 {
+  height: 400px;
+  width: 350px;
+  margin-left: 80px;
+}
+
+.side-1 p {
+  font-size: 20px;
+  margin: 20px 0px 70px 0px;
+}
+
+.side-1 img {
+  margin-top: 70px;
+}
+/* service */
+.side-2 {
+  height: 400px;
+  width: 350px;
+  margin-left: 30px;
+}
+.side-2 p {
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.side-2 ul li {
+  text-decoration: underline;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.side-2 h3 {
+  margin-top: 70px;
+
+}
+/* contact */
+.side-4 {
+  height: 400px;
+  width: 350px;
+}
+
+.side-4 p {
+  font-size: 30px;
+  margin-top: 70px;
+}
+.side-4 ul li {
+  list-style-type: none;
+}
+.side-4 h3 {
+  padding: 20px 80px 0px 0px;
+}
+
+ .circle-icon {
+ 
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: rgb(42, 37, 37);
+  color:hsl(79, 85%, 42%);
+ margin-right: 5px;
+}
+
+.footer-icon {
+ display: flex;
+ 
+ margin-top: 10px;
+ padding:5px;
+ padding-right: 5px;
+ text-align: center;
 }
