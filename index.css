@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 /* top side */
@@ -55,6 +56,7 @@ a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+
 }
 
 .outer {
@@ -67,6 +69,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .inner {
@@ -121,6 +124,7 @@ h1 {
   width: 130px;
   background-color: #ebedeb;
   border-radius: 50%;
+ 
 }
 
 .icon-section h4 {
@@ -182,6 +186,7 @@ img {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+  margin-top: 30px;
 }
 
 .our-service p {
@@ -281,7 +286,7 @@ img {
 .outer-shape {
   height: 300px;
   width: 200px;
-  /* border: 2px solid rgb(54, 51, 51); */
+  
   text-align: center;
 }
 
@@ -511,3 +516,6 @@ img {
  padding-right: 5px;
  text-align: center;
 }
+
+
+
